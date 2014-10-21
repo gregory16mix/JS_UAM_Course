@@ -44,7 +44,6 @@ EE = function () {
         for (i = 0; i < this.listeners[eventName].length; i++) {
             this.listeners[eventName][i].apply(this, argumenty);
         }
-
     };
 
 //	var ee = new EE();
