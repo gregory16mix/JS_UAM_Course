@@ -1,0 +1,76 @@
+body {
+	text-align: center;
+	padding: 0px;
+}
+
+.main {
+	display:inline-block;
+	width:1000px;
+	height:auto;
+}
+
+.main .add_el {
+	height:50px;
+	width:250px;
+	padding-left:10px;
+	border:solid;
+	border-color:silver;
+}
+
+.main .add_btn {
+	height:25px;
+	width:80px;
+	background-color: rgb(22, 255, 3);
+	border:solid;
+	border-color:silver;
+	cursor:pointer;
+}
+
+.listContener {
+	display:inline-block;
+	width:400px;
+	text-align:center;
+	padding:0px 0px;
+	color: black;
+
+}
+
+#list_contener li {
+	background-color: rgba(1, 240, 1,0.4);
+	padding: 0px;
+	height:30px;
+	transition: background-color 0.5s;
+	line-height:30px;
+	margin-bottom:2px;
+	opacity: 1;
+	transition: opacity 0.5s;
+	border-style: dashed;
+	border-color:gray;
+	border-width: 1px;
+	list-style:none;
+}
+
+#list_contener li:hover {
+	background-color:rgb(255, 2, 2);
+}
+
+#list_contener li button { 
+	border:none; 
+	float:right;
+	height:100%;
+	width:100px;
+	cursor:pointer;
+}
+
+#footerContener {
+	display:inline-block;
+	text-align:center;
+	background-color: rgb(200,200,200);
+	width:600px;
+	padding:10px 0px;
+	color:#fff;
+}
+
+.active_element {
+	background-color:rgba(2, 100, 180, 0.7) !important;
+}
