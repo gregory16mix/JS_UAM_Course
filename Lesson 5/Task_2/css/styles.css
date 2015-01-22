@@ -1,0 +1,60 @@
+body {
+	text-align: center;
+	padding: 0px;
+	#background: url('http://www.hdwallpapers.in/walls/crystal_light-wide.jpg');
+}
+
+.main {
+	display:inline-block;
+	width:980px;
+	height:auto;
+}
+
+	.main .add_el {
+		height:30px;
+		width:500px;
+		padding-left:10px;
+	}
+	
+	.main .add_btn {
+		height:30px;
+		width:100px;
+		background-color: rgb(3, 213, 93);
+		border:none;
+		margin-left:-4px;
+		cursor:pointer;
+	}
+
+	#listview {
+		list-style:none;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.list_container {
+		display:inline-block;
+		width:600px;
+	}
+	
+	#listview li {
+		background-color: rgba(3, 189, 213,0.4);
+		padding: 0px;
+		height:30px;
+		transition: background-color 0.5s;
+		line-height:30px;
+		margin-bottom:2px;
+		opacity: 1;
+		transition: opacity 0.5s;
+	}
+	
+	#listview li:hover {
+		background-color:rgb(3, 189, 213);
+	}
+	
+	#listview li button { border:none; float:right;height:100%;width:100px;cursor:pointer}
+
+	#footerview {display:inline-block;text-align:center;background-color: #000;width:600px;padding:10px 0px;color:#fff;}
+
+	.active_element {
+		background-color:rgba(95, 232, 118, 0.7) !important;
+	}
