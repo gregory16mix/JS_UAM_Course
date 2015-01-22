@@ -1,0 +1,101 @@
+body {
+	text-align: center;
+	padding: 0px;
+	background: url('http://www.empireoftheseed.com/magazine/background.jpg');
+}
+
+.main {
+	display:inline-block;
+	width:400px;
+	height:auto;
+}
+.main .ban{
+	width:400px;
+	height:auto;
+	text-align: center;
+	color: white;
+}
+
+.main .divIn{
+	display:inline-block;
+	border-style: outset;
+	border-color: silver;
+	border-width: 5px;
+	width:260px;
+	text-align: center;
+
+}
+
+	.main .for_add {
+		height:40px;
+		width:200px;
+		padding-left:10px;
+	}
+	
+	.main .bat_add {
+		height:40px;
+		width:60px;
+		background-color: rgb(4, 150, 250);
+		border:none;
+		margin-left:-4px;
+		cursor:pointer;
+	}
+
+	#listUl {
+		list-style:none;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.listDiv {
+		display:inline-block;
+		width:300px;
+	}
+	
+	#listUl li {
+		background-color: rgba(9, 92, 130, 0.9);
+		padding: 0px;
+		height:30px;
+		transition: background-color 0.5s;
+		line-height:30px;
+		margin-bottom:2px;
+		opacity: 1;
+		transition: opacity 0.5s;
+	}
+	
+	#listUl li:hover {
+		background-color:rgb(5, 29, 61);
+		color:white;
+	}
+	
+	#listUl li button { 
+		border:none; 
+		float:right;
+		height:100%;
+		width:100px;
+		cursor:pointer
+	}
+	
+	#pass {
+		display:block;
+		width:400px;
+		height:5px;
+	}
+	
+	#footDiv {
+		display:inline-block;
+		text-align:center;
+		width:200px;
+		padding:10px 0px;
+		color:#fff;
+		opacity:0.5;
+		border-style:outset;
+		border-color:silver;
+		border-width:2px;
+		margin:5px;
+	}
+
+	.active_ele {
+		background-color:rgba(52, 83, 39, 0.4) !important;
+		color:green;
+	}
